@@ -20,6 +20,7 @@
 - [General Troubleshooting](#general-troubleshooting)
   - [Reloading the Window / Rebuilding the Container](#reloading-the-window--rebuilding-the-container)
   - [Resetting vscode AppData](#resetting-vscode-appdata)
+  - [A Note Concerning Self-Signed Certificates](#a-note-concerning-self-signed-certificates)
 - [Reopen in a Dev Container and Start Hacking](#reopen-in-a-dev-container-and-start-hacking)
   - [Hello, World!](#hello-world)
 - [Container Persistence Through Rebuilds](#container-persistence-through-rebuilds)
@@ -126,6 +127,11 @@ Windows: "~/AppData/Roaming/Code - Insiders"
 Linux: "$HOME/.config/Code - Insiders/"
 macOS: "$HOME/Library/Application Support/Code - Insiders"
 ```
+
+## A Note Concerning Self-Signed Certificates
+If you are in a corporate env or for some other reason have self-signed certificates in your chain, the tools will fail with SSL errors. To mitigate this, the build will ping a site over ssl and trust the certs in the chain. If you wish to not do this, comment out the 'Trust self-signed certs' code in the [Dockerfile](.devcontainer/Dockerfile) prior to building.
+
+If you pulled from docker hub instead of building, you may need to run the code related to self-signed certs after starting your image to trust your self-signed certs.
 
 # Reopen in a Dev Container and Start Hacking
 Open this folder in vscode configured with the pre-recs above and you should be prompted to reopen in Container. From there the .devcontainer config will be used to create and start your dev environment.
