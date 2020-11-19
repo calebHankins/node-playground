@@ -16,6 +16,7 @@
     "dependencies": {
         "comment-json": "^4.1.0",
         "mkdirp": "^1.0.3",
+        "request": "^2.88.2",
         "touch": "^3.1.0"
     },
     "devDependencies": {
