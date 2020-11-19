@@ -14,7 +14,9 @@
     "author": "Caleb 'chanki' Hankins",
     "license": "Apache-2.0",
     "dependencies": {
-        "mkdirp": "^1.0.3"
+        "comment-json": "^4.1.0",
+        "mkdirp": "^1.0.3",
+        "touch": "^3.1.0"
     },
     "devDependencies": {
         "eslint": "^6.8.0",
