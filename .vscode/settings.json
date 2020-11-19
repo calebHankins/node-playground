@@ -11,20 +11,31 @@
     "emojisense.showOnColon": true,
     "cSpell.words": [
         "Hankins",
+        "USERPROFILE",
         "appdata",
+        "azuretools",
         "bierner",
         "chanki",
         "dbaeumer",
         "devcontainer",
+        "eamodio",
+        "editorconfig",
         "emojisense",
+        "extensionpack",
+        "gitlens",
         "hookyqr",
+        "mhutchie",
+        "mkdirp'ing",
+        "mutantdino",
         "openssh",
         "promisify",
         "quokka",
+        "resourcemonitor",
         "shwoopsie",
         "sketchbuch",
         "tink",
         "vids",
-        "wallabyjs"
+        "wallabyjs",
+        "yzhang"
     ]
 }
