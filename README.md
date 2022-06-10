@@ -1,6 +1,6 @@
 # node-playground
 
-[![GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2FcalebHankins%2Fnode-playground%2Fbadge)](https://github.com/calebHankins/node-playground/actions)
+[![GitHub Actions](https://github.com/calebHankins/node-playground/workflows/.github/workflows/build-docker-images.yaml/badge.svg)](https://github.com/calebHankins/node-playground/actions)
 [![Version](https://img.shields.io/github/package-json/v/calebHankins/node-playground/master)](https://github.com/calebHankins/node-playground/blob/master/package.json)
 
 
