@@ -14,6 +14,7 @@
         "bierner",
         "buildcache",
         "Buildx",
+        "davidanson",
         "dbaeumer",
         "devcontainer",
         "eamodio",
@@ -35,5 +36,14 @@
         "yzhang"
     ],
     "cSpell.useGitignore": true,
-    "explorer.excludeGitIgnore": true
+    "explorer.excludeGitIgnore": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.markdownlint": true
+    },
+    "markdownlint.config": {
+        "MD028": false,
+        "MD025": {
+            "front_matter_title": ""
+        }
+    }
 }
