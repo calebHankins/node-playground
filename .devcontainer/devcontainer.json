@@ -22,7 +22,6 @@
         "sketchbuch.vsc-quokka-statusbar",
         "github.vscode-pull-request-github",
         "github.remotehub"
-
     ],
     "settings": {
         "remote.extensionKind": {
