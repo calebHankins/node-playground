@@ -12,17 +12,27 @@
     "cSpell.words": [
         "appdata",
         "bierner",
+        "buildcache",
+        "Buildx",
         "dbaeumer",
         "devcontainer",
+        "eamodio",
         "emojisense",
+        "extensionpack",
         "hookyqr",
+        "mhutchie",
+        "mutantdino",
         "openssh",
         "promisify",
         "quokka",
+        "resourcemonitor",
         "shwoopsie",
         "sketchbuch",
         "tink",
         "vids",
-        "wallabyjs"
-    ]
+        "wallabyjs",
+        "yzhang"
+    ],
+    "cSpell.useGitignore": true,
+    "explorer.excludeGitIgnore": true
 }
