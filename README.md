@@ -1,7 +1,7 @@
 # node-playground
 
-[![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/calebhankins/node-playground.svg?style=flat-square)](https://hub.docker.com/r/calebhankins/node-playground/)
-[![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/calebhankins/node-playground.svg?style=flat-square)](https://hub.docker.com/r/calebhankins/node-playground/)
+[![GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2FcalebHankins%2Fnode-playground%2Fbadge)](https://github.com/calebHankins/node-playground/actions)
+[![Version](https://img.shields.io/github/package-json/v/calebHankins/node-playground/master)](https://github.com/calebHankins/node-playground/blob/master/package.json)
 
 
 *A Containerized playground for experimenting with Node.js using [vscode's Remote - Containers](https://code.visualstudio.com/docs/remote/containers) feature.*
