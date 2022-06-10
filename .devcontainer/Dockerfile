@@ -11,7 +11,7 @@ RUN apk --no-cache add \
     coreutils \
     dos2unix \
     curl \
-    && npm install -g release-it
+    && npm install --location=global release-it
 
 # Trust self-signed certs in the chain for schemastore.azurewebsites.net:443 for intellisense
 # Comment this out for non-corporate envs where you might have MitM attacks from IP loss prevention software like Netskope
