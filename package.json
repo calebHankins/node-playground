@@ -1,6 +1,6 @@
 {
     "name": "node-playground",
-    "version": "0.4.4",
+    "version": "0.4.5",
     "description": "Containerized playground for experimenting with Node.js",
     "main": "index.js",
     "repository": {
