@@ -10,6 +10,7 @@
     "scripts": {
         "start": "node index.js",
         "configureSSH": "node scripts/configureSSH.js",
+        "lint": "eslint . --ext .js,.json",
         "release": "npx release-it",
         "release:patch": "npx release-it patch",
         "release:minor": "npx release-it minor",
@@ -21,10 +22,9 @@
         "mkdirp": "^1.0.3"
     },
     "devDependencies": {
-        "eslint": "^9.36.0",
-        "eslint-config-airbnb-base": "^14.2.1",
-        "eslint-plugin-import": "^2.20.1",
-        "eslint-plugin-json": "^2.1.1",
+        "eslint": "^8.57.1",
+        "eslint-plugin-jsdoc": "^63.0.10",
+        "eslint-plugin-json": "^4.0.1",
         "release-it": "^20.0.1"
     }
 }

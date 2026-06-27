@@ -8,7 +8,6 @@
 - [node-playground](#node-playground)
   - [Mission Statement](#mission-statement)
   - [Workspace Features](#workspace-features)
-    - [Live Javascript Scratchpad](#live-javascript-scratchpad)
     - [Release Management Tooling](#release-management-tooling)
   - [Using This Guide](#using-this-guide)
   - [Pre-Req Checklist](#pre-req-checklist)
@@ -34,19 +33,6 @@ This guide aims to provide a starting Node playground to experiment with Node.js
 If you're brand new to vscode, you can check out their [series of intro vids to get started](https://code.visualstudio.com/docs/getstarted/introvideos#VSCode).
 
 ## Workspace Features
-
-### Live Javascript Scratchpad
-
-[Quokka](https://quokkajs.com/) is a slick prototyping tool for javascript development. The Quokka configuration settings are persisted into a docker volume to persist changes through rebuilds.
-
-These included extensions add integrated support for Quokka in vscode.
-
-- [Quokka.js](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode)
-- [Quokka Statusbar Buttons](https://marketplace.visualstudio.com/items?itemName=sketchbuch.vsc-quokka-statusbar)
-
-You can give it a try by opening the [Days 'Till Xmas](./emoji/days-till-xmas/index.js) sample app and hitting one of the `Q` buttons in the status bar.
-
-![quokka](img/quokka.png)
 
 ### Release Management Tooling
 
@@ -157,7 +143,6 @@ To try our your new env, you can start by running the supplied ["Hello, World!" 
 docker volume rm node-playground-node_modules
 docker volume rm node-playground-extensions
 docker volume rm node-playground-extensions-insiders
-docker volume rm node-playground-quokka
 docker volume rm node-playground-ash_history
 ```
 
