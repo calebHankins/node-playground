@@ -10,8 +10,6 @@
         "mhutchie.git-graph",
         "yzhang.markdown-all-in-one",
         "mutantdino.resourcemonitor",
-        "bierner.emojisense",
-        "wallabyjs.quokka-vscode",
-        "sketchbuch.vsc-quokka-statusbar"
+        "bierner.emojisense"
     ]
 }
