@@ -25,6 +25,6 @@
         "eslint": "^8.57.1",
         "eslint-plugin-jsdoc": "^63.0.10",
         "eslint-plugin-json": "^4.0.1",
-        "release-it": "^20.0.1"
+        "release-it": "^21.0.1"
     }
 }
